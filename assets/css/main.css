@@ -380,20 +380,19 @@ img { max-width: 100%; }
 /* Locked week page */
 
 .locked-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 10rem 2rem 4rem;
+  min-height: calc(100vh - 7rem);
+  padding: 2rem;
   max-width: 520px;
   margin: 0 auto;
 }
 
-.locked-icon {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.5;
-}
-
 .locked-title {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 1rem;

@@ -10,7 +10,6 @@ permalink: /week-60/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">Container Supply Chain Security</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2027-06-08</strong></p>

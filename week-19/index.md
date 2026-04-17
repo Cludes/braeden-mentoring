@@ -10,7 +10,6 @@ permalink: /week-19/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">OSINT: Finding Information Without Touching the Target</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2026-08-25</strong></p>

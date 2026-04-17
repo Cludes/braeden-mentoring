@@ -10,7 +10,6 @@ permalink: /week-13/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">OWASP Top 10: The Most Common Web Vulnerabilities</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2026-07-14</strong></p>

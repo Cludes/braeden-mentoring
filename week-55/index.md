@@ -10,7 +10,6 @@ permalink: /week-55/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">Infrastructure as Code with Terraform</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2027-05-04</strong></p>

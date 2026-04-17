@@ -10,7 +10,6 @@ permalink: /week-50/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">Certifications: Which One and When</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2027-03-30</strong></p>

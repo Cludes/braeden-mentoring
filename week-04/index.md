@@ -10,7 +10,6 @@ permalink: /week-04/
 ---
 
 <div class="locked-page">
-  <div class="locked-icon">&#128274;</div>
   <h2 class="locked-title">JavaScript Basics</h2>
   <p class="locked-msg">This week is not available yet.</p>
   <p class="locked-date">Releases on <strong>2026-05-12</strong></p>
