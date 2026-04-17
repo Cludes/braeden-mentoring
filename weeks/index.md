@@ -358,3 +358,86 @@ permalink: /weeks/
 </a>
 </div>
 </section>
+
+<section class="phase-section">
+<div class="phase-header">
+  <span class="phase-dot" style="background:#06b6d4"></span>
+  <h2>Phase 11 <span class="phase-name">Advanced DevOps</span></h2>
+</div>
+<div class="week-grid">
+<a href="{{ "/week-53/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 53</span>
+  <span class="week-card-title">Kubernetes Fundamentals</span>
+  <span class="week-card-date">2027-04-20</span>
+</a>
+<a href="{{ "/week-54/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 54</span>
+  <span class="week-card-title">Kubernetes Security</span>
+  <span class="week-card-date">2027-04-27</span>
+</a>
+<a href="{{ "/week-55/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 55</span>
+  <span class="week-card-title">Infrastructure as Code with Terraform</span>
+  <span class="week-card-date">2027-05-04</span>
+</a>
+<a href="{{ "/week-56/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 56</span>
+  <span class="week-card-title">Scanning Infrastructure as Code</span>
+  <span class="week-card-date">2027-05-11</span>
+</a>
+<a href="{{ "/week-57/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 57</span>
+  <span class="week-card-title">Monitoring and Alerting with Prometheus and Grafana</span>
+  <span class="week-card-date">2027-05-18</span>
+</a>
+<a href="{{ "/week-58/" | relative_url }}" class="week-card" style="--card-accent:#06b6d4">
+  <span class="week-card-num">Week 58</span>
+  <span class="week-card-title">Log Analysis and SIEM Basics</span>
+  <span class="week-card-date">2027-05-25</span>
+</a>
+</div>
+</section>
+
+<section class="phase-section">
+<div class="phase-header">
+  <span class="phase-dot" style="background:#10b981"></span>
+  <h2>Phase 12 <span class="phase-name">SecDevOps</span></h2>
+</div>
+<div class="week-grid">
+<a href="{{ "/week-59/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 59</span>
+  <span class="week-card-title">Attacking CI/CD Pipelines</span>
+  <span class="week-card-date">2027-06-01</span>
+</a>
+<a href="{{ "/week-60/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 60</span>
+  <span class="week-card-title">Container Supply Chain Security</span>
+  <span class="week-card-date">2027-06-08</span>
+</a>
+<a href="{{ "/week-61/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 61</span>
+  <span class="week-card-title">Secrets Management with HashiCorp Vault</span>
+  <span class="week-card-date">2027-06-15</span>
+</a>
+<a href="{{ "/week-62/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 62</span>
+  <span class="week-card-title">AWS Security Services</span>
+  <span class="week-card-date">2027-06-22</span>
+</a>
+<a href="{{ "/week-63/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 63</span>
+  <span class="week-card-title">Attacking Cloud Infrastructure: CloudGoat</span>
+  <span class="week-card-date">2027-06-29</span>
+</a>
+<a href="{{ "/week-64/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 64</span>
+  <span class="week-card-title">Incident Response in Cloud Environments</span>
+  <span class="week-card-date">2027-07-06</span>
+</a>
+<a href="{{ "/week-65/" | relative_url }}" class="week-card" style="--card-accent:#10b981">
+  <span class="week-card-num">Week 65</span>
+  <span class="week-card-title">Build a Secure CI/CD Pipeline: Capstone</span>
+  <span class="week-card-date">2027-07-13</span>
+</a>
+</div>
+</section>
