@@ -6,17 +6,14 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
 
   <header class="site-header">
     <div class="container">
-      <a class="site-title" href="{{ '/' | relative_url }}">
-        <span class="site-title-icon">&#128187;</span>
-        Braeden's Learning Hub
-      </a>
+      <a class="site-title" href="{{ '/' | relative_url }}">Braeden</a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">All Weeks</a>
       </nav>
@@ -24,16 +21,21 @@
   </header>
 
   <main class="site-main">
-    <div class="container">
-      {{ content }}
-    </div>
+    {{ content }}
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Mentor: Andrew Bennett &nbsp;|&nbsp; NDIS Mentoring Program</p>
+      <p>Mentor: Andrew Bennett &nbsp;&middot;&nbsp; NDIS Mentoring Program</p>
     </div>
   </footer>
+
+  <script>
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+  </script>
 
 </body>
 </html>
