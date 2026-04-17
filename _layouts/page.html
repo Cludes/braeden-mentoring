@@ -5,7 +5,7 @@ layout: default
 <div class="container">
   {% if page.phase_label %}
   <div class="week-breadcrumb">
-    <a href="{{ '/' | relative_url }}">&larr; All Weeks</a>
+    <a href="{{ '/weeks/' | relative_url }}">&larr; All Weeks</a>
     <span class="phase-badge" style="background: {{ page.phase_color }}">{{ page.phase_label }}: {{ page.phase_name }}</span>
   </div>
   {% endif %}
@@ -23,6 +23,6 @@ layout: default
   </article>
 
   <div class="week-nav">
-    <a href="{{ '/' | relative_url }}" class="btn btn-outline">&larr; Back to all weeks</a>
+    <a href="{{ '/weeks/' | relative_url }}" class="btn btn-outline">&larr; Back to all weeks</a>
   </div>
 </div>
