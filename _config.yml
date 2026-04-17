@@ -1,6 +1,6 @@
 title: "Braeden's Learning Hub"
 description: "Web development, cybersecurity, Python, and IT -- one week at a time"
-baseurl: "/braeden-learning"
+baseurl: "/braeden-mentoring"
 url: "https://cludes.github.io"
 
 markdown: kramdown
