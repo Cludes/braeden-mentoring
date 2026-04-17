@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Write and Submit Your First Bug Report"
-week_number: "40"
-release_date: "2027-01-19"
-phase_label: "Phase 8"
-phase_name: "Bug Bounty"
-phase_color: "#f77f00"
 permalink: /week-40/
 ---
 

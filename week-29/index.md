@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python and APIs: Automate Everything"
-week_number: "29"
-release_date: "2026-11-03"
-phase_label: "Phase 6"
-phase_name: "Python Automation"
-phase_color: "#118ab2"
 permalink: /week-29/
 ---
 

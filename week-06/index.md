@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Build a Project: Personal Portfolio Page"
-week_number: "6"
-release_date: "2026-05-26"
-phase_label: "Phase 1"
-phase_name: "Web Foundations"
-phase_color: "#4361ee"
 permalink: /week-06/
 ---
 

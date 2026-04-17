@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "CTF Competition Week"
-week_number: "47"
-release_date: "2027-03-09"
-phase_label: "Phase 10"
-phase_name: "Projects, Career & Year Two"
-phase_color: "#2ec4b6"
 permalink: /week-47/
 ---
 

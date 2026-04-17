@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Australian Cybersecurity Law and Ethics: Required Before Week 12"
-week_number: "11b"
-release_date: "2026-07-03"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-11b/
 ---
 

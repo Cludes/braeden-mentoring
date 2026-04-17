@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Linux Privilege Escalation"
-week_number: "34"
-release_date: "2026-12-08"
-phase_label: "Phase 7"
-phase_name: "Intermediate Cybersecurity"
-phase_color: "#e63946"
 permalink: /week-34/
 ---
 

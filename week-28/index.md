@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Regular Expressions in Python"
-week_number: "28"
-release_date: "2026-10-27"
-phase_label: "Phase 6"
-phase_name: "Python Automation"
-phase_color: "#118ab2"
 permalink: /week-28/
 ---
 

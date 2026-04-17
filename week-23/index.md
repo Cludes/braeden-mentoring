@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Browser APIs: Local Storage and the DOM"
-week_number: "23"
-release_date: "2026-09-22"
-phase_label: "Phase 5"
-phase_name: "Intermediate JavaScript"
-phase_color: "#06d6a0"
 permalink: /week-23/
 ---
 

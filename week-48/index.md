@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Writing CTF Write-ups and Building Your Portfolio"
-week_number: "48"
-release_date: "2027-03-16"
-phase_label: "Phase 10"
-phase_name: "Projects, Career & Year Two"
-phase_color: "#2ec4b6"
 permalink: /week-48/
 ---
 

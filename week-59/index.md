@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Attacking CI/CD Pipelines"
-week_number: "59"
-release_date: "2027-06-01"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-59/
 ---
 

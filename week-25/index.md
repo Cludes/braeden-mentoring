@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Project: JSON-Powered Quiz App"
-week_number: "25"
-release_date: "2026-10-06"
-phase_label: "Phase 5"
-phase_name: "Intermediate JavaScript"
-phase_color: "#06d6a0"
 permalink: /week-25/
 ---
 

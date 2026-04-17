@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "HackTheBox Tier 1 + What's Next"
-week_number: "20"
-release_date: "2026-09-01"
-phase_label: "Phase 4"
-phase_name: "CTF & HackTheBox"
-phase_color: "#e63946"
 permalink: /week-20/
 ---
 

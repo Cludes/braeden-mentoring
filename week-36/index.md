@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "CTF Mini: Multi-Stage Challenge"
-week_number: "36"
-release_date: "2026-12-22"
-phase_label: "Phase 7"
-phase_name: "Intermediate Cybersecurity"
-phase_color: "#e63946"
 permalink: /week-36/
 ---
 

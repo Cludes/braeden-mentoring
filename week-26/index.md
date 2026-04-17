@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python File I/O and Text Processing"
-week_number: "26"
-release_date: "2026-10-13"
-phase_label: "Phase 6"
-phase_name: "Python Automation"
-phase_color: "#118ab2"
 permalink: /week-26/
 ---
 

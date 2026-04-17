@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Password Security and Hash Cracking"
-week_number: "14"
-release_date: "2026-07-21"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-14/
 ---
 

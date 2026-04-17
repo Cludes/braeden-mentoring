@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Cloud Security Overview"
-week_number: "45"
-release_date: "2027-02-23"
-phase_label: "Phase 9"
-phase_name: "DevOps & Cloud Security"
-phase_color: "#4cc9f0"
 permalink: /week-45/
 ---
 

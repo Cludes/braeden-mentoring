@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Incident Response in Cloud Environments"
-week_number: "64"
-release_date: "2027-07-06"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-64/
 ---
 

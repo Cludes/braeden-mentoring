@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Build and Publish a Security Tool"
-week_number: "46"
-release_date: "2027-03-02"
-phase_label: "Phase 10"
-phase_name: "Projects, Career & Year Two"
-phase_color: "#2ec4b6"
 permalink: /week-46/
 ---
 

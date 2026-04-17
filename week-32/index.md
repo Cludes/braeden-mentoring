@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "HackTheBox: Tier 2 Machines"
-week_number: "32"
-release_date: "2026-11-24"
-phase_label: "Phase 7"
-phase_name: "Intermediate Cybersecurity"
-phase_color: "#e63946"
 permalink: /week-32/
 ---
 

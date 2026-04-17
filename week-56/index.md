@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Scanning Infrastructure as Code"
-week_number: "56"
-release_date: "2027-05-11"
-phase_label: "Phase 11"
-phase_name: "Advanced DevOps"
-phase_color: "#06b6d4"
 permalink: /week-56/
 ---
 

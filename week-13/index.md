@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "OWASP Top 10: The Most Common Web Vulnerabilities"
-week_number: "13"
-release_date: "2026-07-14"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-13/
 ---
 

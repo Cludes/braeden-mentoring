@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "GitHub Actions: Automate Your Workflow"
-week_number: "42"
-release_date: "2027-02-02"
-phase_label: "Phase 9"
-phase_name: "DevOps & Cloud Security"
-phase_color: "#4cc9f0"
 permalink: /week-42/
 ---
 

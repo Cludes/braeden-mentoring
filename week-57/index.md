@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Monitoring and Alerting with Prometheus and Grafana"
-week_number: "57"
-release_date: "2027-05-18"
-phase_label: "Phase 11"
-phase_name: "Advanced DevOps"
-phase_color: "#06b6d4"
 permalink: /week-57/
 ---
 

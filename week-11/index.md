@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "How the Internet Works"
-week_number: "11"
-release_date: "2026-06-30"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-11/
 ---
 

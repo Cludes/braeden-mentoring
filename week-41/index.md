@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Docker: Containers from First Principles"
-week_number: "41"
-release_date: "2027-01-26"
-phase_label: "Phase 9"
-phase_name: "DevOps & Cloud Security"
-phase_color: "#4cc9f0"
 permalink: /week-41/
 ---
 

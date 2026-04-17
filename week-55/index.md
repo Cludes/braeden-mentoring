@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Infrastructure as Code with Terraform"
-week_number: "55"
-release_date: "2027-05-04"
-phase_label: "Phase 11"
-phase_name: "Advanced DevOps"
-phase_color: "#06b6d4"
 permalink: /week-55/
 ---
 

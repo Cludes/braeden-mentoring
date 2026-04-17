@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Secrets Management with HashiCorp Vault"
-week_number: "61"
-release_date: "2027-06-15"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-61/
 ---
 

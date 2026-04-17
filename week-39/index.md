@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Advanced Recon for Bug Bounty"
-week_number: "39"
-release_date: "2027-01-12"
-phase_label: "Phase 8"
-phase_name: "Bug Bounty"
-phase_color: "#f77f00"
 permalink: /week-39/
 ---
 

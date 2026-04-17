@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python Basics: Your First Real Programming Language"
-week_number: "7"
-release_date: "2026-06-02"
-phase_label: "Phase 2"
-phase_name: "Python, Linux & Git"
-phase_color: "#7209b7"
 permalink: /week-07/
 ---
 

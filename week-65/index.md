@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Build a Secure CI/CD Pipeline: Capstone"
-week_number: "65"
-release_date: "2027-07-13"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-65/
 ---
 

@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Kubernetes Fundamentals"
-week_number: "53"
-release_date: "2027-04-20"
-phase_label: "Phase 11"
-phase_name: "Advanced DevOps"
-phase_color: "#06b6d4"
 permalink: /week-53/
 ---
 

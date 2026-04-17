@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Australian Cybersecurity Career Paths"
-week_number: "49"
-release_date: "2027-03-23"
-phase_label: "Phase 10"
-phase_name: "Projects, Career & Year Two"
-phase_color: "#2ec4b6"
 permalink: /week-49/
 ---
 

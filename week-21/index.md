@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "JavaScript: Fetch API and Working with Real Data"
-week_number: "21"
-release_date: "2026-09-08"
-phase_label: "Phase 5"
-phase_name: "Intermediate JavaScript"
-phase_color: "#06d6a0"
 permalink: /week-21/
 ---
 

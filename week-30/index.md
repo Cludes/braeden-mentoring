@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python Project: Automated Recon Tool"
-week_number: "30"
-release_date: "2026-11-10"
-phase_label: "Phase 6"
-phase_name: "Python Automation"
-phase_color: "#118ab2"
 permalink: /week-30/
 ---
 

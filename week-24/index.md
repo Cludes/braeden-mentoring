@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Introduction to Node.js"
-week_number: "24"
-release_date: "2026-09-29"
-phase_label: "Phase 5"
-phase_name: "Intermediate JavaScript"
-phase_color: "#06d6a0"
 permalink: /week-24/
 ---
 

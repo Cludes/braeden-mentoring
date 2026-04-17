@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "CSS: Styling Your Pages"
-week_number: "3"
-release_date: "2026-05-05"
-phase_label: "Phase 1"
-phase_name: "Web Foundations"
-phase_color: "#4361ee"
 permalink: /week-03/
 ---
 

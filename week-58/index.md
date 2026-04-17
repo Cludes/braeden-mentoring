@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Log Analysis and SIEM Basics"
-week_number: "58"
-release_date: "2027-05-25"
-phase_label: "Phase 11"
-phase_name: "Advanced DevOps"
-phase_color: "#06b6d4"
 permalink: /week-58/
 ---
 

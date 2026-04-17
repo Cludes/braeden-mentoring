@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Container Supply Chain Security"
-week_number: "60"
-release_date: "2027-06-08"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-60/
 ---
 

@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "JavaScript and the DOM"
-week_number: "5"
-release_date: "2026-05-19"
-phase_label: "Phase 1"
-phase_name: "Web Foundations"
-phase_color: "#4361ee"
 permalink: /week-05/
 ---
 

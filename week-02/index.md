@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "HTML Forms and Links"
-week_number: "2"
-release_date: "2026-04-28"
-phase_label: "Phase 1"
-phase_name: "Web Foundations"
-phase_color: "#4361ee"
 permalink: /week-02/
 ---
 

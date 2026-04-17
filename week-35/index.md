@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Metasploit: Exploitation Framework"
-week_number: "35"
-release_date: "2026-12-15"
-phase_label: "Phase 7"
-phase_name: "Intermediate Cybersecurity"
-phase_color: "#e63946"
 permalink: /week-35/
 ---
 

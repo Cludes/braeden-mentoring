@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "OSINT: Finding Information Without Touching the Target"
-week_number: "19"
-release_date: "2026-08-25"
-phase_label: "Phase 4"
-phase_name: "CTF & HackTheBox"
-phase_color: "#e63946"
 permalink: /week-19/
 ---
 

@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Certifications: Which One and When"
-week_number: "50"
-release_date: "2027-03-30"
-phase_label: "Phase 10"
-phase_name: "Projects, Career & Year Two"
-phase_color: "#2ec4b6"
 permalink: /week-50/
 ---
 

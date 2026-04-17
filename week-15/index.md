@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Network Attacks and Port Scanning"
-week_number: "15"
-release_date: "2026-07-28"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-15/
 ---
 

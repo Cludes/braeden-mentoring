@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "AWS Security Services"
-week_number: "62"
-release_date: "2027-06-22"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-62/
 ---
 

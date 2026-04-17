@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python Data Structures: Lists, Dicts, and Sets"
-week_number: "8"
-release_date: "2026-06-09"
-phase_label: "Phase 2"
-phase_name: "Python, Linux & Git"
-phase_color: "#7209b7"
 permalink: /week-08/
 ---
 

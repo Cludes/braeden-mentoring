@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Git and GitHub: Track and Share Your Code"
-week_number: "10"
-release_date: "2026-06-23"
-phase_label: "Phase 2"
-phase_name: "Python, Linux & Git"
-phase_color: "#7209b7"
 permalink: /week-10/
 ---
 

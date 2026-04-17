@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Attacking Cloud Infrastructure: CloudGoat"
-week_number: "63"
-release_date: "2027-06-29"
-phase_label: "Phase 12"
-phase_name: "SecDevOps"
-phase_color: "#10b981"
 permalink: /week-63/
 ---
 

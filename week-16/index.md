@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Web Exploitation: XSS and SQL Injection"
-week_number: "16"
-release_date: "2026-08-04"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-16/
 ---
 

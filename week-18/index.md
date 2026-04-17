@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "HackTheBox: Starting Point"
-week_number: "18"
-release_date: "2026-08-18"
-phase_label: "Phase 4"
-phase_name: "CTF & HackTheBox"
-phase_color: "#e63946"
 permalink: /week-18/
 ---
 

@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Bug Bounty: How It Works and Getting Started"
-week_number: "38"
-release_date: "2027-01-05"
-phase_label: "Phase 8"
-phase_name: "Bug Bounty"
-phase_color: "#f77f00"
 permalink: /week-38/
 ---
 

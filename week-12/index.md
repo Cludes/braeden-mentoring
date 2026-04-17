@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Cybersecurity Foundations: CIA Triad and Threat Models"
-week_number: "12"
-release_date: "2026-07-07"
-phase_label: "Phase 3"
-phase_name: "Cybersecurity Foundations"
-phase_color: "#f72585"
 permalink: /week-12/
 ---
 

@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Python Web Scraping"
-week_number: "27"
-release_date: "2026-10-20"
-phase_label: "Phase 6"
-phase_name: "Python Automation"
-phase_color: "#118ab2"
 permalink: /week-27/
 ---
 
