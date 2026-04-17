@@ -14,7 +14,7 @@
   --accent:     #38bdf8;
   --accent-dim: rgba(56, 189, 248, 0.12);
   --code-bg:    #0d1424;
-  --radius:     10px;
+  --radius:     4px;
   --shadow:     0 8px 32px rgba(0,0,0,0.5);
 }
 
@@ -79,7 +79,7 @@ img { max-width: 100%; }
   font-size: 0.88rem;
   font-weight: 500;
   padding: 0.4rem 0.9rem;
-  border-radius: 6px;
+  border-radius: 0;
   transition: color 0.15s;
 }
 
@@ -121,7 +121,7 @@ img { max-width: 100%; }
 .hero-badge {
   display: inline-block;
   padding: 0.35rem 1rem;
-  border-radius: 999px;
+  border-radius: 4px;
   border: 1px solid rgba(56, 189, 248, 0.35);
   background: rgba(56, 189, 248, 0.08);
   color: var(--accent);
@@ -228,7 +228,7 @@ img { max-width: 100%; }
   align-items: center;
   gap: 0.4rem;
   padding: 0.75rem 1.9rem;
-  border-radius: 999px;
+  border-radius: 4px;
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -434,7 +434,7 @@ img { max-width: 100%; }
 
 .phase-badge {
   padding: 0.2rem 0.75rem;
-  border-radius: 20px;
+  border-radius: 4px;
   font-size: 0.72rem;
   font-weight: 700;
   color: #fff;
@@ -447,7 +447,7 @@ img { max-width: 100%; }
   padding: 1.5rem 1.75rem;
   margin-bottom: 2.5rem;
   background: var(--bg-card);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-radius: 0;
 }
 
 .week-label {
@@ -577,7 +577,7 @@ img { max-width: 100%; }
   border-left: 3px solid var(--accent);
   background: var(--accent-dim);
   padding: 1rem 1.4rem;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0;
   margin: 1.5rem 0;
   color: var(--text);
 }
