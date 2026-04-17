@@ -2,7 +2,7 @@
 layout: page
 title: "Welcome + HTML: Structure of a Web Page"
 week_number: "1"
-release_date: "2026-04-21"
+release_date: "2026-04-17"
 phase_label: "Phase 1"
 phase_name: "Web Foundations"
 phase_color: "#4361ee"

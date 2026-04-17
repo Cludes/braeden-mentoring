@@ -355,6 +355,66 @@ img { max-width: 100%; }
   padding-top: 0.6rem;
 }
 
+/* Locked week card */
+
+.week-card.locked {
+  opacity: 0.45;
+  cursor: default;
+  pointer-events: auto;
+}
+
+.week-card.locked:hover {
+  transform: none;
+  border-color: var(--border);
+  background: var(--bg-card);
+  box-shadow: none;
+}
+
+.week-card.locked:hover::after { opacity: 0; }
+
+.week-card.locked .week-card-date {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Locked week page */
+
+.locked-page {
+  text-align: center;
+  padding: 10rem 2rem 4rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.locked-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}
+
+.locked-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.locked-msg {
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.locked-date {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 2.5rem;
+}
+
+.locked-date strong {
+  color: var(--accent);
+}
+
 /* =====================================================================
    Individual week page
    ===================================================================== */
