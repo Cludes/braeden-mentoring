@@ -1,0 +1,22 @@
+title: "Braeden's Learning Hub"
+description: "Web development, cybersecurity, Python, and IT -- one week at a time"
+baseurl: "/braeden-learning"
+url: "https://cludes.github.io"
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

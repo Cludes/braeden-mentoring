@@ -1,0 +1,433 @@
+/* =====================================================================
+   Braeden's Learning Hub - Main Stylesheet
+   ===================================================================== */
+
+/* Reset & base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0d1117;
+  --bg-card:   #161b22;
+  --bg-hover:  #1f2937;
+  --border:    #30363d;
+  --text:      #e6edf3;
+  --text-muted:#8b949e;
+  --accent:    #4361ee;
+  --code-bg:   #161b22;
+  --radius:    10px;
+  --shadow:    0 4px 24px rgba(0,0,0,0.4);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+
+/* =====================================================================
+   Header
+   ===================================================================== */
+
+.site-header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.site-title:hover { text-decoration: none; opacity: 0.85; }
+
+.site-title-icon { font-size: 1.3rem; }
+
+.site-nav a {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.site-nav a:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* =====================================================================
+   Main / Footer
+   ===================================================================== */
+
+.site-main { flex: 1; padding: 2.5rem 0 4rem; }
+
+.site-footer {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  padding: 1.2rem 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* =====================================================================
+   Hero (index page)
+   ===================================================================== */
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* =====================================================================
+   Phase sections and week cards
+   ===================================================================== */
+
+.phase-section { margin: 2.5rem 0; }
+
+.phase-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.phase-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.phase-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.phase-header .phase-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-left: 0.25rem;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.week-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+
+.week-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--card-accent, var(--accent));
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.week-card:hover {
+  border-color: var(--card-accent, var(--accent));
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+.week-card:hover::before { opacity: 1; }
+
+.week-card-num {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.week-card-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.week-card-date {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+/* =====================================================================
+   Individual week page
+   ===================================================================== */
+
+.week-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+
+.week-breadcrumb a { color: var(--text-muted); }
+.week-breadcrumb a:hover { color: var(--text); }
+
+.phase-badge {
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.week-header {
+  border-left: 4px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  background: var(--bg-card);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.week-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.week-header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: 0.3rem;
+}
+
+.week-date {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* =====================================================================
+   Content body (rendered markdown)
+   ===================================================================== */
+
+.content-body h1,
+.content-body h2,
+.content-body h3,
+.content-body h4 {
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 2rem 0 0.75rem;
+}
+
+.content-body h1 { font-size: 1.6rem; }
+.content-body h2 { font-size: 1.25rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+.content-body h3 { font-size: 1.05rem; }
+
+.content-body p,
+.content-body li { margin-bottom: 0.6rem; color: var(--text); }
+
+.content-body ul,
+.content-body ol { padding-left: 1.6rem; margin-bottom: 1rem; }
+
+.content-body li { margin-bottom: 0.35rem; }
+
+.content-body strong { color: #fff; font-weight: 600; }
+.content-body em { color: var(--text); }
+
+.content-body a { color: var(--accent); }
+.content-body a:hover { text-decoration: underline; }
+
+.content-body hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* Tables */
+.content-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.content-body th {
+  background: #1f2937;
+  color: var(--text);
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--border);
+}
+
+.content-body td {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+  vertical-align: top;
+}
+
+.content-body tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+
+/* Code */
+.content-body code {
+  font-family: "Fira Code", "Consolas", monospace;
+  font-size: 0.85em;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.12em 0.4em;
+  color: #e2c08d;
+}
+
+.content-body pre {
+  background: #010409;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.content-body pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #e2edf3;
+  font-size: inherit;
+}
+
+/* Callout blocks (blockquote repurposed) */
+.content-body blockquote {
+  border-left: 4px solid var(--accent);
+  background: rgba(67, 97, 238, 0.1);
+  padding: 0.9rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.25rem 0;
+  color: var(--text);
+}
+
+.content-body blockquote p { margin: 0; }
+
+/* =====================================================================
+   Buttons
+   ===================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.btn:hover { text-decoration: none; opacity: 0.85; }
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover { color: var(--text); }
+
+.week-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* =====================================================================
+   Responsive
+   ===================================================================== */
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 1.75rem; }
+  .week-grid { grid-template-columns: 1fr; }
+  .week-header h1 { font-size: 1.35rem; }
+  .content-body h1 { font-size: 1.3rem; }
+  .content-body h2 { font-size: 1.1rem; }
+}

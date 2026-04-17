@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.phase_label %}
+<div class="week-breadcrumb">
+  <a href="{{ '/' | relative_url }}">&larr; All Weeks</a>
+  <span class="phase-badge" style="background: {{ page.phase_color }}">{{ page.phase_label }}: {{ page.phase_name }}</span>
+</div>
+{% endif %}
+
+<article class="week-content">
+  <header class="week-header" style="border-color: {{ page.phase_color }}">
+    <p class="week-label">Week {{ page.week_number }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.release_date %}<p class="week-date">Released: {{ page.release_date }}</p>{% endif %}
+  </header>
+
+  <div class="content-body">
+    {{ content }}
+  </div>
+</article>
+
+<div class="week-nav">
+  <a href="{{ '/' | relative_url }}" class="btn btn-secondary">&larr; Back to all weeks</a>
+</div>
