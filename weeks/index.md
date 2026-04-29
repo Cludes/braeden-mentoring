@@ -15,10 +15,10 @@ permalink: /weeks/
   <span class="week-card-title">Welcome + HTML: Structure of a Web Page</span>
   <span class="week-card-date">2026-04-17</span>
 </a>
-<a href="{{ "/week-02/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
+<a href="{{ "/week-02/" | relative_url }}" class="week-card" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 2</span>
   <span class="week-card-title">HTML Forms and Links</span>
-  <span class="week-card-date">Available 2026-04-28</span>
+  <span class="week-card-date">2026-04-28</span>
 </a>
 <a href="{{ "/week-03/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 3</span>
