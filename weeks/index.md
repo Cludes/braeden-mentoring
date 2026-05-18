@@ -25,10 +25,10 @@ permalink: /weeks/
   <span class="week-card-title">CSS: Styling Your Pages</span>
   <span class="week-card-date">2026-05-05</span>
 </a>
-<a href="{{ "/week-04/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
+<a href="{{ "/week-04/" | relative_url }}" class="week-card" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 4</span>
   <span class="week-card-title">JavaScript Basics</span>
-  <span class="week-card-date">Available 2026-05-12</span>
+  <span class="week-card-date">2026-05-12</span>
 </a>
 <a href="{{ "/week-05/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 5</span>
