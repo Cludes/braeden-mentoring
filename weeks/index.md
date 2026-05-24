@@ -30,10 +30,10 @@ permalink: /weeks/
   <span class="week-card-title">JavaScript Basics</span>
   <span class="week-card-date">2026-05-12</span>
 </a>
-<a href="{{ "/week-05/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
+<a href="{{ "/week-05/" | relative_url }}" class="week-card" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 5</span>
   <span class="week-card-title">JavaScript and the DOM</span>
-  <span class="week-card-date">Available 2026-05-19</span>
+  <span class="week-card-date">2026-05-19</span>
 </a>
 <a href="{{ "/week-06/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 6</span>
