@@ -35,10 +35,10 @@ permalink: /weeks/
   <span class="week-card-title">JavaScript and the DOM</span>
   <span class="week-card-date">2026-05-19</span>
 </a>
-<a href="{{ "/week-06/" | relative_url }}" class="week-card locked" style="--card-accent:#4361ee">
+<a href="{{ "/week-06/" | relative_url }}" class="week-card" style="--card-accent:#4361ee">
   <span class="week-card-num">Week 6</span>
   <span class="week-card-title">Build a Project: Personal Portfolio Page</span>
-  <span class="week-card-date">Available 2026-05-26</span>
+  <span class="week-card-date">2026-05-26</span>
 </a>
 </div>
 </section>
