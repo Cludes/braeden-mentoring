@@ -49,10 +49,10 @@ permalink: /weeks/
   <h2>Phase 2 <span class="phase-name">Python, Linux & Git</span></h2>
 </div>
 <div class="week-grid">
-<a href="{{ "/week-07/" | relative_url }}" class="week-card locked" style="--card-accent:#7209b7">
+<a href="{{ "/week-07/" | relative_url }}" class="week-card" style="--card-accent:#7209b7">
   <span class="week-card-num">Week 7</span>
   <span class="week-card-title">Python Basics: Your First Real Programming Language</span>
-  <span class="week-card-date">Available 2026-06-02</span>
+  <span class="week-card-date">2026-06-02</span>
 </a>
 <a href="{{ "/week-08/" | relative_url }}" class="week-card locked" style="--card-accent:#7209b7">
   <span class="week-card-num">Week 8</span>
