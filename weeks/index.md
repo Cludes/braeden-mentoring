@@ -64,10 +64,10 @@ permalink: /weeks/
   <span class="week-card-title">Linux Command Line</span>
   <span class="week-card-date">2026-06-16</span>
 </a>
-<a href="{{ "/week-10/" | relative_url }}" class="week-card locked" style="--card-accent:#7209b7">
+<a href="{{ "/week-10/" | relative_url }}" class="week-card" style="--card-accent:#7209b7">
   <span class="week-card-num">Week 10</span>
   <span class="week-card-title">Git and GitHub: Track and Share Your Code</span>
-  <span class="week-card-date">Available 2026-06-23</span>
+  <span class="week-card-date">2026-06-23</span>
 </a>
 </div>
 </section>
