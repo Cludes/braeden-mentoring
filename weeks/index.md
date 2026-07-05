@@ -78,15 +78,15 @@ permalink: /weeks/
   <h2>Phase 3 <span class="phase-name">Cybersecurity Foundations</span></h2>
 </div>
 <div class="week-grid">
-<a href="{{ "/week-11/" | relative_url }}" class="week-card locked" style="--card-accent:#f72585">
+<a href="{{ "/week-11/" | relative_url }}" class="week-card" style="--card-accent:#f72585">
   <span class="week-card-num">Week 11</span>
   <span class="week-card-title">How the Internet Works</span>
-  <span class="week-card-date">Available 2026-06-30</span>
+  <span class="week-card-date">2026-06-30</span>
 </a>
-<a href="{{ "/week-11b/" | relative_url }}" class="week-card locked" style="--card-accent:#f72585">
+<a href="{{ "/week-11b/" | relative_url }}" class="week-card" style="--card-accent:#f72585">
   <span class="week-card-num">Week 11b</span>
   <span class="week-card-title">Australian Cybersecurity Law and Ethics: Required Before Week 12</span>
-  <span class="week-card-date">Available 2026-07-03</span>
+  <span class="week-card-date">2026-07-03</span>
 </a>
 <a href="{{ "/week-12/" | relative_url }}" class="week-card locked" style="--card-accent:#f72585">
   <span class="week-card-num">Week 12</span>
