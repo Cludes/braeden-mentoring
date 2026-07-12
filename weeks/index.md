@@ -88,10 +88,10 @@ permalink: /weeks/
   <span class="week-card-title">Australian Cybersecurity Law and Ethics: Required Before Week 12</span>
   <span class="week-card-date">2026-07-03</span>
 </a>
-<a href="{{ "/week-12/" | relative_url }}" class="week-card locked" style="--card-accent:#f72585">
+<a href="{{ "/week-12/" | relative_url }}" class="week-card" style="--card-accent:#f72585">
   <span class="week-card-num">Week 12</span>
   <span class="week-card-title">Cybersecurity Foundations: CIA Triad and Threat Models</span>
-  <span class="week-card-date">Available 2026-07-07</span>
+  <span class="week-card-date">2026-07-07</span>
 </a>
 <a href="{{ "/week-13/" | relative_url }}" class="week-card locked" style="--card-accent:#f72585">
   <span class="week-card-num">Week 13</span>
